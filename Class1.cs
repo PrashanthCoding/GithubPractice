@@ -11,7 +11,11 @@ public class Class1
             char myLetter = 'D';
             bool myBool = true;
             string myText = "Hello";
-            Console.WriteLine("Hello World!");
+            Console.WriteLine(myNum);
+            Console.WriteLine(myDoubleNum);
+            Console.WriteLine(myLetter);
+            Console.WriteLine(myBool);
+            Console.WriteLine(myText);
         }
     }
 }
