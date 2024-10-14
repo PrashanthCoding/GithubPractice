@@ -17,6 +17,5 @@ public class Class1
             Console.Write("Entered Number is an Odd Number");
             Console.Read();
         }
-
     }
 }
