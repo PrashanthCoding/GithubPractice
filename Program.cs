@@ -10,7 +10,7 @@ public class Class1
         var reverse = string.empty;
 
         int i = 0; // Start from the first character
-        
+
         while (i < input.Length) // Loop through each character
         {
             reverse = reverse + input[i];// Prepend character to reverse string
