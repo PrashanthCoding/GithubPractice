@@ -9,9 +9,9 @@ public class Class1
         var input = Console.ReadLine();
         var reverse = string.empty;
 
-        int i = input.Length - 1;
-
-        while (i >= 0)// Loop through each character
+        int i = 0; // Start from the first character
+        
+        while (i < input.Length) // Loop through each character
         {
             reverse = reverse + input[i];// Prepend character to reverse string
             i++;// Increment i
