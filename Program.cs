@@ -16,6 +16,7 @@ public class Class1
             i++;// Increment i
         }
 
+         // Check if input is equal to the reversed string
         if(input == reverse)
         {
             Console.WriteLine("The Input is a  palindrome.");
