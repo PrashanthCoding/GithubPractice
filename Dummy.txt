@@ -1,3 +1,12 @@
+To begin, create the basic HTML structure for your carousel. Define a container element where your carousel will reside, and within it, include the necessary HTML elements for each carousel item.
+
+How to do it:
+
+Create a <div> element with a unique ID to serve as the container for your carousel.
+Inside the container, add <div> elements for each carousel item, typically with a class name like "item".
+Let's break down the HTML code:
+
+
 1. <!DOCTYPE html>: This declaration specifies the document type and version of HTML being used.
 
 2. <html lang="en">: This is the opening tag for the HTML document. The lang="en" attribute specifies that the language of the document is English.
