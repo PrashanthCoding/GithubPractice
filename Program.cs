@@ -2,6 +2,7 @@
 
 public class Class1
 {
+    // Declare a Class1.
     public Class1()
     {
         // This is Class1 
