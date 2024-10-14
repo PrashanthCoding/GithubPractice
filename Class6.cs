@@ -12,6 +12,7 @@ namespace maxdatatype
     {
         static void Main(string[] args)
         {
+            // Find Max Value
             Console.WriteLine("The Maximum Range of the Decimal " + 
                               "Data Type is : {0} ", Decimal.MaxValue);
             Console.WriteLine("The Maximum Range of the Float " +
