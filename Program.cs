@@ -8,5 +8,7 @@ public class Class1
         Console.WriteLine("Hello World...!");
 
         // Standardization: Using standardized systems, packaging, and practices across the supply chain can help mitigate incompatibility.
+
+        //Interoperability: Ensuring that software systems can communicate with one another (through APIs or middleware) is critical.
     }
 }
