@@ -1,18 +1,30 @@
 /*
- * C# Program to Calculate Size of File using LINQ
+ * C# Program to Find the Maximum Range of Values for Decimal
+ * Float and Double Datatype
  */
 using System;
+using System.Collections.Generic;
 using System.Linq;
-using System.IO;
-class Program
+using System.Text;
+namespace maxdatatype
 {
-    static void Main(string[] args)
+    class Program
     {
-        // string directory
-        string[] dirfiles = Directory.GetFiles("c:\\sri\\");
-        var avg = dirfiles.Select(file =>new FileInfo(file).Length).Average();
-        avg = Math.Round(avg / 10, 1);
-        Console.WriteLine("The Average file size is {0} MB",avg);
-        Console.ReadLine();
+        static void Main(string[] args)
+        {
+            Console.WriteLine("The Maximum Range of the Decimal " + 
+                              "Data Type is : {0} ", Decimal.MaxValue);
+            Console.WriteLine("The Maximum Range of the Float " +
+                              "Data Type is : {0} ", Single.MaxValue);
+            Console.WriteLine("The Maximum Range of the Decimal " + 
+                              "Data Type is : {0} ", Double.MaxValue);
+            Console.WriteLine("Exponent Form : The Maximum Range of Decimal " + 
+                              "Data Type  is : {0:E}", Decimal.MaxValue);
+            Console.WriteLine("Exponent Form : The Maximum Range of Float " + 
+                              "Data Type  is : {0:E}", Single.MaxValue);
+            Console.WriteLine("Exponent Form : The Maximum Range of Double " + 
+                              "Data Type  is : {0:E}", Double.MaxValue);
+            Console.ReadLine();
+        }
     }
 }
