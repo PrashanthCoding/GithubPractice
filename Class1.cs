@@ -2,18 +2,27 @@
 
 public class Class1
 {
-    public Class1()
-    {
-        static void MyMethod()
-        {
-            Console.WriteLine("I just got executed!");
-        }
+    class Animal  // Base class (parent) 
+{
+  public void animalSound() 
+  {
+    Console.WriteLine("The animal makes a sound");
+  }
+}
 
-        static void Main(string[] args)
-        {
-            MyMethod();
-            MyMethod();
-            MyMethod();
-        }
-    }
+class Pig : Animal  // Derived class (child) 
+{
+  public void animalSound() 
+  {
+    Console.WriteLine("The pig says: wee wee");
+  }
+}
+
+class Dog : Animal  // Derived class (child) 
+{
+  public void animalSound() 
+  {
+    Console.WriteLine("The dog says: bow wow");
+  }
+}
 }
