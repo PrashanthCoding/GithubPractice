@@ -1,24 +1,12 @@
-// Interface
-interface IAnimal
+// Namespace definition
+namespace MyNamespace
 {
-    void animalSound(); // interface method (does not have a body)
+    // Code elements (classes, structs, etc.) go here
+    // e.g., class MyClass { ... }
 }
-
-// Pig "implements" the IAnimal interface
-class Pig : IAnimal
-{
-    public void animalSound()
-    {
-        // The body of animalSound() is provided here
-        Console.WriteLine("The pig says: wee wee");
-    }
-}
-
-class Program
-{
-    static void Main(string[] args)
-    {
-        Pig myPig = new Pig();  // Create a Pig object
-        myPig.animalSound();
-    }
-}
+ 
+// Using the namespace
+using MyNamespace;
+ 
+// Accessing types from a namespace without importing it
+MyNamespace.TypeName myObject = new MyNamespace.TypeName();
