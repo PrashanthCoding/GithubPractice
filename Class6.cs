@@ -8,6 +8,7 @@ class Program
 {
     static void Main(string[] args)
     {
+        // string directory
         string[] dirfiles = Directory.GetFiles("c:\\sri\\");
         var avg = dirfiles.Select(file =>new FileInfo(file).Length).Average();
         avg = Math.Round(avg / 10, 1);
