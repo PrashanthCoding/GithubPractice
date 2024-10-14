@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 
 public class Class1
 {
@@ -6,15 +7,17 @@ public class Class1
     {
         Console.WriteLine("Enter a input values: ");
         var input = Console.ReadLine();
-        var reverse = "";
+        var reverse = string.empty;
+
         int i = input.Length - 1;
 
-        while (i >= 0)
+        while (i >= 0)// Loop through each character
         {
-            reverse += input[i];
-            i--;
+            reverse = reverse + input[i];// Prepend character to reverse string
+            i++;// Increment i
         }
 
+        // Check if input is equal to the reversed string
         if (input == reverse)
         {
             Console.WriteLine("The Input is a  palindrome.");
