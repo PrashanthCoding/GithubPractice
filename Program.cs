@@ -6,13 +6,14 @@ public class Class1
     {
         Console.WriteLine("Enter a input values: ");
         var input = Console.ReadLine();
-        var reverse = "";
+        var reverse = string.empty;
+        
         int i = input.Length -1;
         
-        while(i >=0)
+        while(i >= 0)// Loop through each character
         {
-            reverse += input[i];
-            i--;
+            reverse = reverse + input[i];// Prepend character to reverse string
+            i++;// Increment i
         }
 
         if(input == reverse)
