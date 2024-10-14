@@ -1,7 +1,19 @@
 // JavaScript source code
 
 
-<script>
-    <object width="100%" height="500px" data="snippet.html"></object>
-    document.getElementById("demo").innerHTML = "My First JavaScript";
-</script>
+<html>
+    <head>
+        <script>
+            function myFunction() {
+                document.getElementById("demo").innerHTML = "Paragraph changed.";
+}
+        </script>
+    </head>
+    <body>
+        <h2>Demo JavaScript in Head</h2>
+
+        <p id="demo">A Paragraph</p>
+        <button type="button" onclick="myFunction()">Try it</button>
+
+    </body>
+</html>
