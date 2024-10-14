@@ -4,12 +4,14 @@ public class Class1
 {
     public Class1()
     {
+        static void MyMethod() 
+        {
+            Console.WriteLine("I just got executed!");
+        }
+        
         static void Main(string[] args)
         {
-            string firstName = "John ";
-            string lastName = "Doe";
-            string fullName = firstName + lastName;
-            Console.WriteLine(fullName);
+           MyMethod();
         }
     }
 }
